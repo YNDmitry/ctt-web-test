@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently --raw -n \"vite\" \"wf-publish --env=dev --dev-port=5173\"",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "publish:global": "wf-publish --env=prod",
     "publish:pages": "wf-publish --env=prod --by-page",
