@@ -1,3 +1,3 @@
 export const slider = () => {
-  console.log('hello 12312312')
+  console.log('hello tttttttttt')
 }
