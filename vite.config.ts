@@ -1,8 +1,3 @@
-import { defineConfig } from 'vite';
-import multiPageInputPlugin from '@yndmitry/vite-plugin-pages';
+import { defineConfig } from 'vite'
 
-export default defineConfig({
-	plugins: [
-	 	multiPageInputPlugin()
-	],
-});
+export default defineConfig({})

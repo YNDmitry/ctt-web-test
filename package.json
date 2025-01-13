@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --raw -n \"vite\" \"wf-publish --env=dev --dev-port=5173\"",
+    "dev": "concurrently --raw -n \"vite\" \"python3 /Users/macbookprom1/Documents/webflow-publish-plugin/main.py --env=dev --dev-port=5173\"",
     "build": "vite build",
     "preview": "vite preview",
     "publish:global": "wf-publish --env=prod",
